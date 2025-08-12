@@ -229,7 +229,8 @@ def get_album_details(jm_album_id):
             "data": {
                 "id": album.id,
                 "title": album.title,
-                "tags": album.tags
+                "tags": album.tags,
+                "author": album.author
             }
         })
     except JmcomicException as e: 
