@@ -1,5 +1,5 @@
 class config:
-    host = '0.0.0.0'
+    host = '127.0.0.1'
     port = 8699
     option_file = './option.yml'
     pdf_dir = './pdf'
